@@ -1,0 +1,16 @@
+GET http://localhost:3001/todos
+
+###
+POST http://localhost:3001/todo/new
+Content-Type: application/json
+
+{
+    "text": "Order bbt"
+}
+
+###
+
+DELETE http://localhost:3001/todo/delete/638a517e3146e2127b085ad5
+
+###
+PUT  http://localhost:3001/todo/complete/638b0baa4ff9ef57fd40d697
