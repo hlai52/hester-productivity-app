@@ -1,47 +1,61 @@
-import React from "react";
+// import React, { useState } from "react";
+// import ReactDOM from "react-dom";
+// import { CountdownCircleTimer } from "react-countdown-circle-timer";
 
-const Timer = () => {
-  return (
-    <>
-      <h1>FreeCodeCamp</h1>
-      <main ng-app="PomodoroApp" ng-controller="MainCtrl">
-        <header>
-          <div class="session">
-            <div class="breakCtrl">
-              <p>break length</p>
-              <button class="minus" ng-click="breakLengthChange(-1)">
-                -
-              </button>
-              <span class="time">{{ breakLength }}</span>
-              <button class="plus" ng-click="breakLengthChange(1)">
-                +
-              </button>
-            </div>
-            <div class="sessionCtrl">
-              <p>session length</p>
-              <button class="minus" ng-click="sessionLengthChange(-1)">
-                -
-              </button>
-              <span class="time">{{ sessionLength }}</span>
-              <button class="plus" ng-click="sessionLengthChange(1)">
-                +
-              </button>
-            </div>
-          </div>
-        </header>
-        <section ng-click="toggleTimer()">
-          <div class="timer">
-            <p class="title">{{ sessionName }}</p>
-            <p>{{ timeLeft }}</p>
-            <span
-              class="fill"
-              ng-style="{'height':fillHeight, 'background':fillColor }"
-            ></span>
-          </div>
-        </section>
-      </main>
-    </>
-  );
-};
+// import "./timer.css";
 
-export default Timer;
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);
+
+// const renderTime = ({ remainingTime }) => {
+//   if (remainingTime === 0) {
+//     return <div className="timer">Too late brooooo...</div>;
+//   }
+
+//   return (
+//     <div className="timer">
+//       <div className="text">Remaining</div>
+//       <div className="value">{remainingTime}</div>
+//       <div className="text">seconds</div>
+//     </div>
+//   );
+// };
+
+// function App() {
+//   const [isPlaying, setIsPlaying] = useState(false);
+//   const [duration, setDuration] = useState(10);
+
+//   return (
+//     <div className="App">
+//       <h1>
+//         CountdownCircleTimer
+//         <br />
+//         React Component
+//       </h1>
+//       <div className="timer-wrapper">
+//         <CountdownCircleTimer
+//           isPlaying={isPlaying}
+//           duration={duration}
+//           colors={["#004777", "#F7B801", "#A30000", "#A30000"]}
+//           colorsTime={[10, 6, 3, 0]}
+//           onComplete={() => ({ shouldRepeat: true, delay: 1 })}
+//         >
+//           {renderTime}
+//         </CountdownCircleTimer>
+//       </div>
+//       <div
+//         onClick={() => setIsPlaying(!isPlaying)}
+//       >{`Clicl to start (right now we ${
+//         isPlaying ? "playin" : "ain't playing"
+//       })`}</div>
+//       <div onClick={() => setDuration(duration + 10)}>+10 s</div>
+//       <div onClick={() => setDuration(duration - 10)}>-10 s</div>
+//       <div onClick={() => setDuration(0)}>Just too lale</div>
+//       <p className="info">
+//         Change component properties in the code filed on the right to try
+//         difference functionalities
+//       </p>
+//     </div>
+//   );
+// }
+// export default App;
