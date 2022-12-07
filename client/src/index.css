@@ -31,9 +31,10 @@ h1 {
 }
 
 h4 {
-  font-size: 1.125rem;
-  color: paleturquoise;
+  font-size: 1.2rem;
+  color: rgba(59, 4, 130, 0.543);
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 600;
+  /* letter-spacing: 0.1rem; */
   margin-bottom: 1rem;
 }

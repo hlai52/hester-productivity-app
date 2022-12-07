@@ -1,0 +1,18 @@
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  &__box {
+    margin-top: 1.25rem;
+    margin-bottom: 1.875rem;
+    background-color: #19181829;
+    border-radius: 1.5625rem;
+    padding: 1.875rem 1.25rem;
+    box-shadow: 0.0625rem 0.0625rem 0.3125rem rgba(255, 255, 255, 0.243),
+      0 0.9375rem 5.625rem 1.875rem rgba(0, 0, 0, 0.131);
+    display: flex;
+    align-items: center;
+  }
+}
