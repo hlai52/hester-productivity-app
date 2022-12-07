@@ -29,22 +29,22 @@ function updateTime() {
 const clock = () => {
   return (
     <div>
-      <div class="clock-container">
-        <div class="clock-col">
-          <p class="clock-day clock-timer"></p>
-          <p class="clock-label">Day</p>
+      <div className="clock-container">
+        <div className="clock-col">
+          <p className="clock-day clock-timer"></p>
+          <p className="clock-label">Day</p>
         </div>
-        <div class="clock-col">
-          <p class="clock-hours clock-timer"></p>
-          <p class="clock-label">Hours</p>
+        <div className="clock-col">
+          <p className="clock-hours clock-timer"></p>
+          <p className="clock-label">Hours</p>
         </div>
-        <div class="clock-col">
-          <p class="clock-minutes clock-timer"></p>
-          <p class="clock-label">Minutes</p>
+        <div className="clock-col">
+          <p className="clock-minutes clock-timer"></p>
+          <p className="clock-label">Minutes</p>
         </div>
-        <div class="clock-col">
-          <p class="clock-seconds clock-timer"></p>
-          <p class="clock-label">Seconds</p>
+        <div className="clock-col">
+          <p className="clock-seconds clock-timer"></p>
+          <p className="clock-label">Seconds</p>
         </div>
       </div>
     </div>

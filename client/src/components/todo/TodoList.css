@@ -50,7 +50,7 @@
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
-  background-color: #af1e2d;
+  background-color: #af1d2bc0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -88,7 +88,7 @@
 
   width: 100%;
   max-width: 25rem;
-  background-color: var(--light);
+  background-color: rgba(92, 116, 173, 0.945);
   padding: 2rem;
   border-radius: 1rem;
   box-shadow: 0rem 0.25rem 2rem var(--dark);
@@ -116,11 +116,11 @@
   appearance: none;
   outline: none;
   border: none;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.438);
   padding: 1rem;
   border-radius: 1rem;
   width: 100%;
-  box-shadow: 0rem 0.125rem 1.5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0rem 0.125rem 1.5rem rgba(0, 0, 0, 0.542);
   font-size: 1.25rem;
 }
 
