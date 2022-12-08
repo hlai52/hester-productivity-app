@@ -1,6 +1,7 @@
 // // import { useState, useEffect } from "react";
 import TodoList from "./components/todo/TodoList";
 import Clock from "./components/clock/Clock";
+<<<<<<< HEAD
 // import Timer from "./components/timer/Timer";
 import Music from "./components/music/Music";
 import Note from "./components/note/Note";
@@ -11,6 +12,9 @@ import NotesPage from "./pages/NotesPage";
 import Header from "./components/header/header";
 import ErrorPage from "./pages/ErrorPage";
 
+=======
+import Timer from "./components/timer/Timer";
+>>>>>>> 25872cd (timer not working)
 function App() {
   return (
     //nested route-ex header will be on every page
@@ -38,6 +42,7 @@ function App() {
         <TodoList />
       </div>
       <div>
+<<<<<<< HEAD
         <Music />
       </div>
       <div>
@@ -48,6 +53,11 @@ function App() {
         <Timer />
       </div> */}
     </BrowserRouter>
+=======
+        <Timer />
+      </div>
+    </>
+>>>>>>> 25872cd (timer not working)
   );
 }
 
