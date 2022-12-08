@@ -18,7 +18,7 @@ const renderTime = ({ remainingTime }) => {
   );
 };
 
-function App() {
+function Timer() {
   const [key, setKey] = useState(0);
   return (
     <div className="App">
@@ -31,7 +31,7 @@ function App() {
         <CountdownCircleTimer
           key={key}
           isPlaying
-          duration={10}
+          duration={600}
           colors={[["#004777", 0.33], ["#F7B801", 0.33], ["#A30000"]]}
           onComplete={() => [true, 1000]}
         >
@@ -47,7 +47,7 @@ function App() {
   );
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+// const rootElement = document.getElementById("root");
+// ReactDOM.render(<App />, rootElement);
 
-export { renderTime, App };
+export { renderTime, Timer };
