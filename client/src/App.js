@@ -9,7 +9,6 @@ import NotesPage from "./pages/NotesPage";
 import Header from "./components/header/header";
 import ErrorPage from "./pages/ErrorPage";
 
-import { Timer, renderTime } from "./components/timer/Timer";
 function App() {
   return (
     //nested route-ex header will be on every page
@@ -27,7 +26,6 @@ function App() {
         <Route path="/notes" element={<NotesPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Timer />{" "}
     </BrowserRouter>
   );
 }
