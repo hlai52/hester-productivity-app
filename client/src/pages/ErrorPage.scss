@@ -1,0 +1,27 @@
+.error {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &__robot {
+    height: 10rem;
+    width: 10rem;
+    flex-direction: row;
+  }
+
+  &__message {
+    display: flex;
+    color: rgba(49, 42, 42, 0.407);
+    padding: 0 1.5rem 0 1.5rem;
+  }
+  &__jello {
+    width: 10%;
+    height: 10%;
+  }
+}
+
+// .class-clock-hidden {
+//   display: none;
+// }
+
+//hides on other pages?
