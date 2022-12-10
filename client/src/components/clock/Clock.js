@@ -29,7 +29,7 @@ function updateTime() {
 const clock = () => {
   return (
     <div>
-      <div className="clock-container">
+      <div className="clock-container class-clock-hidden">
         <div className="clock-col">
           <p className="clock-day clock-timer"></p>
           <p className="clock-label">Day</p>

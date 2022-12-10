@@ -8,6 +8,7 @@ import HomePage from "./pages/HomePage";
 import ToDoListPage from "./pages/ToDoListPage";
 import NotesPage from "./pages/NotesPage";
 import Header from "./components/header/header";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="/todolist" element={<ToDoListPage />} />
 
         <Route path="/notes" element={<NotesPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
 
       {/* <div>
