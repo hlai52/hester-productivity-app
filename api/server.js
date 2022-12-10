@@ -1,17 +1,37 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
+require("dotenv").config();
 
 const app = express();
 
 app.use(express.json());
 app.use(cors());
 
+const useCosmos = process.env.USE_COSMOS === "true";
+
+let config = {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  retryWrites: false,
+};
+
+const connectionString = `mongodb://${process.env.DB_HOST}:${
+  process.env.DB_PORT
+}/${process.env.DB_NAME}${useCosmos ? "?ssl=true&replicaSet=globaldb" : ""}`;
+
+if (useCosmos) {
+  config = {
+    auth: {
+      username: process.env.DB_USER,
+      password: process.env.DB_PASSWORD,
+    },
+    ...config,
+  };
+}
+
 mongoose
-  .connect("mongodb://127.0.0.1:27017/react-todo", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
+  .connect(connectionString, config)
   .then(() => console.log("Connected to MongoDB"))
   .catch((err) => console.error(err));
 
