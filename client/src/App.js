@@ -9,6 +9,7 @@ import ToDoListPage from "./pages/ToDoListPage";
 import NotesPage from "./pages/NotesPage";
 import Header from "./components/header/header";
 import ErrorPage from "./pages/ErrorPage";
+import Game from "./components/game/game";
 
 function App() {
   return (
@@ -27,22 +28,7 @@ function App() {
         <Route path="/notes" element={<NotesPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-
-      {/* <div>
-        <Clock />
-      </div>
-
-      <div className="App">
-        <h1> Aloha! Welcome, Hester</h1>
-        <TodoList />
-      </div>
-      <div>
-        <Music />
-      </div>
-      <div>
-        {" "}
-        <Note />{" "}
-      </div> */}
+      <Game />
     </BrowserRouter>
   );
 }
