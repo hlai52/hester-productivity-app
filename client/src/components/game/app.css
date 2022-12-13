@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
 
-.App {
+.tictactoe {
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -49,7 +49,7 @@
   transform: scale(0.1);
   opacity: 0;
 }
-button {
+/* button {
   background-color: #111827;
   border: 1px solid transparent;
   border-radius: 0.75rem;
@@ -82,7 +82,7 @@ button:focus {
   box-shadow: none;
   outline: 2px solid transparent;
   outline-offset: 2px;
-}
+} */
 
 @media (min-width: 768px) {
   button {

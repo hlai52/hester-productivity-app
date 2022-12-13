@@ -4,13 +4,11 @@
 
 html,
 body {
-  // prevent awkward scrolling that interferes with the game
   overflow: hidden;
   font-family: Helvetica, san-serif;
 }
 
 .grid {
-  // we don't want borders to factor into the size, so that grid calculations can be exact, so use content-box sizing
   box-sizing: content-box;
   padding: 0;
   border-top: 1px solid lightgray;

@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <div className="tictactoe">
       {/* Shrinks the popup when there is no winner */}
       <div className={`winner ${winner !== "" ? "" : "shrink"}`}>
         {/* Display the current winner */}
