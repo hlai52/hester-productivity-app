@@ -46,7 +46,7 @@ function Timer() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="timer">
       <h1>
         Timer :
         <br />
