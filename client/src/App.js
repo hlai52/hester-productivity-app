@@ -1,8 +1,7 @@
-// import { useState, useEffect } from "react";
-import TodoList from "./components/todo/TodoList";
+// // import { useState, useEffect } from "react";
+
 import Clock from "./components/clock/Clock";
-import Music from "./components/music/Music";
-import Note from "./components/note/Note";
+
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ToDoListPage from "./pages/ToDoListPage";
@@ -27,22 +26,6 @@ function App() {
         <Route path="/notes" element={<NotesPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-
-      {/* <div>
-        <Clock />
-      </div>
-
-      <div className="App">
-        <h1> Aloha! Welcome, Hester</h1>
-        <TodoList />
-      </div>
-      <div>
-        <Music />
-      </div>
-      <div>
-        {" "}
-        <Note />{" "}
-      </div> */}
     </BrowserRouter>
   );
 }
