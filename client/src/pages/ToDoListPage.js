@@ -1,10 +1,11 @@
 import React from "react";
 import ToDoList from "../components/todo/TodoList";
+import Clock from "../components/clock/Clock";
 
-//is it const or function?
 const ToDoListPage = () => {
   return (
     <>
+      <Clock />;
       <ToDoList />
     </>
   );

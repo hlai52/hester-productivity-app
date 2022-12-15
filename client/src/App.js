@@ -11,16 +11,13 @@ import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
-    //nested route-ex header will be on every page
-
     <BrowserRouter>
       <Header />
-      <Clock />
-      {/*can place header here  */}
+
       <Routes>
         <Route path="/home/" element={<HomePage />} />
         <Route path="/" element={<Navigate to="/home" />} />
-        {/* nested child routes */}
+
         <Route path="/todolist" element={<ToDoListPage />} />
 
         <Route path="/notes" element={<NotesPage />} />

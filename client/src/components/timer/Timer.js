@@ -52,12 +52,14 @@ function Timer() {
         <br />
         {`${timerMinutes} mins`}
       </h1>
-      <button className="info" onClick={incrementTimer}>
-        + 5 mins
-      </button>
-      <button className="info" onClick={decrementTimer}>
-        - 5 mins
-      </button>
+      <div className="five-btn">
+        <button className="info add" onClick={incrementTimer}>
+          + 5 mins
+        </button>
+        <button className="info minus" onClick={decrementTimer}>
+          - 5 mins
+        </button>
+      </div>
       <div className="timer-wrapper">
         <CountdownCircleTimer
           isPlaying={isRunning}
@@ -68,12 +70,14 @@ function Timer() {
           {renderTime}
         </CountdownCircleTimer>
       </div>
-      <button className="info" onClick={startTimer}>
-        Click here to start!
-      </button>
-      <button className="info" onClick={pauseTimer}>
-        Click here to pause.
-      </button>
+      <div className="click-btn">
+        <button className="info start" onClick={startTimer}>
+          Start!
+        </button>
+        <button className="info pause" onClick={pauseTimer}>
+          Pause.
+        </button>
+      </div>
     </div>
   );
 }

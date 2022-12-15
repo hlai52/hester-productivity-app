@@ -11,8 +11,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: "Fira Sans", sans-serif;
+  /* 
+  font-family: "Fira Sans", sans-serif; */
 }
 
 body {
@@ -34,6 +34,8 @@ h4 {
   font-size: 1.2rem;
   color: rgba(59, 4, 130, 0.543);
   text-transform: uppercase;
+  display: flex;
+  justify-content: center;
   font-weight: 600;
   /* letter-spacing: 0.1rem; */
   margin-bottom: 1rem;
