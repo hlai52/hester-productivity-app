@@ -1,7 +1,12 @@
 import React from "react";
+import Clock from "../components/clock/Clock";
 
 const HomePage = () => {
-  return <>Welcome to the homepage!</>;
+  return (
+    <>
+      <Clock />
+    </>
+  );
 };
 
 export default HomePage;

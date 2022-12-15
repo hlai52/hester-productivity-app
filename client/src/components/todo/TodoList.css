@@ -9,6 +9,16 @@
   cursor: pointer;
   margin-bottom: 1rem;
 }
+.todo__title {
+  background-color: rgba(8, 47, 53, 0.679);
+  box-shadow: 1px 1px 5px rgba(13, 8, 147, 0.788),
+    0 5px 30px 20px rgba(226, 226, 112, 0.82);
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  font-size: xx-large;
+  color: white;
+}
 
 .todo:hover {
   opacity: 0.8;
