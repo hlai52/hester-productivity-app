@@ -1,7 +1,3 @@
-// // import { useState, useEffect } from "react";
-
-import Clock from "./components/clock/Clock";
-
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import ToDoListPage from "./pages/ToDoListPage";
