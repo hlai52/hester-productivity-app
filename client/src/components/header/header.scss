@@ -1,0 +1,63 @@
+.header {
+  font-family: "Roboto";
+  &__logo-container {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__logo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 25px;
+  }
+  &__mvp {
+    display: flex;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    color: rgba(60, 88, 88, 0.689);
+  }
+  &__mvp-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__btn-container {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2.5rem 1rem;
+  }
+
+  &__todolist-btn {
+    padding-right: 0.5rem;
+  }
+
+  &__todo-btn {
+    background-color: rgba(28, 163, 107, 0.708);
+    box-shadow: 1px 1px 10px rgba(65, 201, 183, 0.908),
+      0 1px 20px 10px rgba(242, 247, 246, 0.832);
+    border-radius: 12px;
+    padding: 7px;
+    color: rgb(247, 253, 253);
+    border: none;
+  }
+
+  &__notes-btn {
+    padding-left: 1rem;
+  }
+
+  &__work-btn {
+    background-color: rgba(28, 163, 107, 0.708);
+    box-shadow: 1px 1px 10px rgba(65, 201, 183, 0.908),
+      0 1px 20px 10px rgba(242, 247, 246, 0.832);
+    border-radius: 12px;
+    padding: 7px;
+    color: rgb(247, 253, 253);
+    border: none;
+  }
+}

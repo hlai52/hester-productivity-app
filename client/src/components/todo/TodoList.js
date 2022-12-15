@@ -59,7 +59,7 @@ function TodoList() {
 
   return (
     <>
-      <h4>Your Tasks</h4>
+      <h4 className="todo__title">Your Tasks</h4>
       <div>
         <div className="todos">
           {todos.map((todo) => (
