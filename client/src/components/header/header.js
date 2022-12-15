@@ -9,7 +9,9 @@ const header = () => {
     <>
       <div className="header">
         <div className="header__logo-container">
-          <img className="header__logo" alt="logo of a moon" src={logo}></img>
+          <Link to="/">
+            <img className="header__logo" alt="logo of a moon" src={logo}></img>
+          </Link>
         </div>
         <div className="header__mvp-box">
           <p className="header__mvp">
@@ -19,12 +21,12 @@ const header = () => {
         <div className="header__btn-container">
           <div className="header__todolist-btn">
             <Link to="/todolist">
-              <button>To Do List</button>
+              <button>To-Do List</button>
             </Link>
           </div>
           <div className="header__notes-btn">
             <Link to="/notes">
-              <button>Notes Page</button>
+              <button>Work Corner</button>
             </Link>
           </div>
         </div>
