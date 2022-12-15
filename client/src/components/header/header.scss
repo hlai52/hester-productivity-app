@@ -6,8 +6,9 @@
     align-items: center;
   }
   &__logo {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 25px;
   }
   &__mvp {
     display: flex;
@@ -15,7 +16,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 1rem;
-    color: rgba(60, 88, 88, 0.495);
+    color: rgba(60, 88, 88, 0.689);
   }
   &__mvp-box {
     display: flex;
@@ -31,10 +32,28 @@
   }
 
   &__todolist-btn {
-    background-color: orange;
+    padding-right: 0.5rem;
+  }
+
+  &__todo-btn {
+    background-color: rgba(128, 84, 169, 0.751);
+    box-shadow: 1px 1px 5px rgba(9, 142, 186, 0.601),
+      0 9px 30px 10px rgba(2, 23, 26, 0.832);
+    border-radius: 12px;
+    padding: 4px;
+    color: rgb(247, 253, 253);
   }
 
   &__notes-btn {
     padding-left: 1rem;
+  }
+
+  &__work-btn {
+    background-color: rgba(128, 84, 169, 0.751);
+    box-shadow: 1px 1px 5px rgba(9, 142, 186, 0.601),
+      0 9px 30px 10px rgba(2, 23, 26, 0.832);
+    border-radius: 12px;
+    padding: 4px;
+    color: rgb(247, 253, 253);
   }
 }

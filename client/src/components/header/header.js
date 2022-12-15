@@ -21,12 +21,12 @@ const header = () => {
         <div className="header__btn-container">
           <div className="header__todolist-btn">
             <Link to="/todolist">
-              <button>To-Do List</button>
+              <button className="header__todo-btn">To-Do List</button>
             </Link>
           </div>
           <div className="header__notes-btn">
             <Link to="/notes">
-              <button>Work Corner</button>
+              <button className="header__work-btn">Work Corner</button>
             </Link>
           </div>
         </div>
