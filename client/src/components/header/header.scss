@@ -30,6 +30,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 2.5rem 1rem;
   }
 
   &__todolist-btn {
@@ -37,12 +38,13 @@
   }
 
   &__todo-btn {
-    background-color: rgba(128, 84, 169, 0.751);
-    box-shadow: 1px 1px 5px rgba(9, 142, 186, 0.601),
-      0 9px 30px 10px rgba(2, 23, 26, 0.832);
+    background-color: rgba(28, 163, 107, 0.708);
+    box-shadow: 1px 1px 10px rgba(65, 201, 183, 0.908),
+      0 1px 20px 10px rgba(242, 247, 246, 0.832);
     border-radius: 12px;
-    padding: 4px;
+    padding: 7px;
     color: rgb(247, 253, 253);
+    border: none;
   }
 
   &__notes-btn {
@@ -50,11 +52,12 @@
   }
 
   &__work-btn {
-    background-color: rgba(128, 84, 169, 0.751);
-    box-shadow: 1px 1px 5px rgba(9, 142, 186, 0.601),
-      0 9px 30px 10px rgba(2, 23, 26, 0.832);
+    background-color: rgba(28, 163, 107, 0.708);
+    box-shadow: 1px 1px 10px rgba(65, 201, 183, 0.908),
+      0 1px 20px 10px rgba(242, 247, 246, 0.832);
     border-radius: 12px;
-    padding: 4px;
+    padding: 7px;
     color: rgb(247, 253, 253);
+    border: none;
   }
 }

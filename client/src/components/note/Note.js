@@ -71,8 +71,9 @@ function Note() {
 
   return (
     <div className="note" onDragOver={dragOver}>
-      <h1 className="note__title"> Work Corner</h1>
-
+      <div>
+        <h1 className="note__title"> Work Corner</h1>
+      </div>
       <div className="note__form">
         {notesState.notes.length > 0 && (
           <h3 className="note__length">

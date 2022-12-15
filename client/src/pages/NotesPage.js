@@ -10,8 +10,8 @@ const NotesPage = () => {
       <Clock />;
       <Timer />
       <Notes />
-      <Music />
       <TodoList />
+      <Music />
     </div>
   );
 };

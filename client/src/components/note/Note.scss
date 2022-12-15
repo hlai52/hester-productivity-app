@@ -8,12 +8,16 @@
 
   &__title {
     margin: auto;
-    padding-top: 3.125rem;
+    padding: 1.5rem;
     font-size: 2.75rem;
     font-weight: bolder;
     text-transform: capitalize;
-    letter-spacing: 0.5rem;
-    padding-bottom: 6rem;
+    margin-bottom: 5rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    background-color: rgba(8, 47, 53, 0.679);
+    box-shadow: 1px 1px 5px rgba(13, 8, 147, 0.788),
+      0 5px 30px 20px rgba(224, 227, 228, 0.82);
   }
 
   &__form {

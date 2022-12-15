@@ -48,6 +48,7 @@ function Timer() {
   return (
     <div className="timer">
       <h1>
+        <br></br>
         Timer :
         <br />
         {`${timerMinutes} mins`}
