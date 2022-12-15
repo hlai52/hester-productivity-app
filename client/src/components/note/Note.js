@@ -71,7 +71,7 @@ function Note() {
 
   return (
     <div className="note" onDragOver={dragOver}>
-      <h1 className="note__title">Pomodoro To-Do </h1>
+      <h1 className="note__title"> Work Corner</h1>
 
       <div className="note__form">
         {notesState.notes.length > 0 && (
@@ -83,7 +83,7 @@ function Note() {
 
         <form className="note__form-add" onSubmit={addNote}>
           <textarea
-            placeholder="Add pomodoro tasks to do right now.."
+            placeholder="Add task to do right now.."
             className="note__form-text"
             value={noteText}
             onChange={(e) => setNoteText(e.target.value)}
@@ -98,10 +98,7 @@ function Note() {
               src={checkbox}
             ></img>
           </div>
-          <p className="note__completed-description">
-            Erase completed task at the end of the pomdoro session! If not done,
-            leave it for the next pomdoro session to complete.
-          </p>
+          <p className="note__completed-description">Almost there!</p>
         </div>
       </div>
 

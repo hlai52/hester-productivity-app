@@ -1,6 +1,6 @@
 .note {
   text-align: center;
-  /* background: url("insertpic"); */
+  padding-top: 3rem;
   background-size: cover;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,6 +13,7 @@
     font-weight: bolder;
     text-transform: capitalize;
     letter-spacing: 0.5rem;
+    padding-bottom: 6rem;
   }
 
   &__form {
@@ -24,7 +25,7 @@
 
   &__length {
     font-size: 1rem;
-    color: rgba(66, 196, 177, 0.827);
+    color: rgba(13, 91, 83, 0.827);
     padding-bottom: 1rem;
   }
 
@@ -62,7 +63,7 @@
 
   &__field {
     position: absolute;
-    top: 10.25rem;
+    top: 18rem;
     left: 20rem;
     height: 18.75rem;
     width: 18.75rem;
@@ -104,8 +105,8 @@
   }
 
   &__completed-description {
-    font-size: 1rem;
-    color: rgba(66, 196, 177, 0.827);
+    font-size: 1.2rem;
+    color: rgba(13, 91, 83, 0.827);
     padding-top: 1rem;
   }
   &__container-full {
