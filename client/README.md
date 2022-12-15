@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# RESET Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A tablet and desktop responsive application that is designed for you to stay mindfully organized in the present moment.
 
-## Available Scripts
+- Created by Hester Lai
 
-In the project directory, you can run:
+## Steps to Run Program
 
-### `npm start`
+1. Install node.JS
+   Version v18.12.1
+   https://nodejs.org/en/download/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Open the file
+   Run command LS to see that there is client and api folder available.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. CD into API folder
+   Run CD into the API folder.
+   Run command npm i to install all necessary modules.
 
-### `npm test`
+4. CD into client folder
+   Run CD into Client folder.
+   Run command npm i to install everything.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Open a new terminal
+   Run command CD into API folder.
+   When inside API folder, run command npm start server.
 
-### `npm run build`
+You should see "Server is running on port#.." and "Connected to MongoDB"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. Open a new terminal
+   Run command CD into Client folder.
+   When inside client folder, run command npm start.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+7. If you wish to use local storage simply change the current ".env" file to ".env.database and take the .env.local file and change it to ".env" and it should let you store the todo list function locally.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Stack Used
 
-### `npm run eject`
+Javascript
+React
+NodeJS
+MongoD DB(data storage)
+Azure Cosmos DB or locally(change .env file in steps to run)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deeper Explanation of App
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is a tablet & desktop responsive tool aimed to be used daily. It is not mobile responsive as the tools being used would not be ideal for a mobile as it aims to have the user sit for a certain period of time and conduct work at their workstation, not on the go as it requires screen space also. It would not be possible to show it on a mobile and be working.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Inspiration
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In a instant culture culture and time for instaneous is everything, how come we don’t apply it to our personal lives of daily tasks? I want to bring awareness on the present moment and remove the emotion of feeling overwhelmed and end the cycle of non-productiveness in a casual way.
+I was inspired by my classmates and their pomodoro study sessions. I found the fast pace speed of the bootcamp to be overwhelming for some of us and I wanted to solve that pain point. By offering the to do list to be stored locally or in a database for the user's customization. The work corner is stored in local session and will be erased as it promotes and motivates those to start and complete their task in the work corner.
