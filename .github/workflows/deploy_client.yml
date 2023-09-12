@@ -40,7 +40,7 @@ jobs:
       - name: Change to /client directory, install and build
         run: |
           npm ci
-          npm run build
+          npm run build:github
         working-directory: client
       - uses: actions/upload-pages-artifact@v1
         with:
