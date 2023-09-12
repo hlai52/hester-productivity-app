@@ -31,7 +31,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: cd app
+      - run: cd client
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
