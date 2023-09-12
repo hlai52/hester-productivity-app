@@ -44,7 +44,7 @@ jobs:
         working-directory: client
       - uses: actions/upload-pages-artifact@v1
         with:
-          path: dist/
+          path: client/build/
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Deploy to GitHub Pages
