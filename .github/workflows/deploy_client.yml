@@ -31,12 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - run: cd client
       - name: Use Node.js 18.x
         uses: actions/setup-node@v3
         with:
           node-version: "18.x"
           cache: "npm"
+          cache-dependency-path: client/package-lock.json
+      - run: cd client
       - run: npm ci
       - run: npm run build
       - uses: actions/upload-pages-artifact@v1
