@@ -19,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:github": "PUBLIC_URL=https://hlai52.github.io/hester-productivity-app react-scripts build",
+    "build:github": "PUBLIC_URL=/hester-productivity-app react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
