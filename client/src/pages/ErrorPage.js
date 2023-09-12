@@ -1,6 +1,5 @@
 import React from "react";
 import error from "../Assets/Images/error.svg";
-import uhoh from "../Assets/Images/uoh.svg";
 import jello from "../Assets/Images/stuckjello.svg";
 import "./ErrorPage.scss";
 
